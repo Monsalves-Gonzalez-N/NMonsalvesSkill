@@ -191,19 +191,6 @@ git pull
 The symlink keeps pointing at the same location, so Claude Code picks up the
 update automatically.
 
-## Adding more skills (for the author)
-
-Drop a new folder under `skills/`, e.g. `skills/<new-skill>/SKILL.md` with
-the standard frontmatter (`name`, `description`). Then on each install
-machine create a symlink:
-
-```bash
-ln -s ~/Claude_plugins/NMonsalvesSkill/skills/<new-skill> ~/.claude/skills/<new-skill>
-```
-
-The `plugin.json` does not need updating — directory layout is the source of
-truth.
-
 ## License
 
 MIT. See `LICENSE` (if present) or use as you wish with attribution.
