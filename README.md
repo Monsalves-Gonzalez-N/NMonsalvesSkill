@@ -85,11 +85,16 @@ You should see `paper-review` in the list.
 ### Step 1 — Export a BibTeX from ADS
 
 1. Go to https://ui.adsabs.harvard.edu and search for the papers you want
-   (e.g. "GRB afterglow" filtered by year).
-2. Select the papers (tick the checkboxes or "select all").
-3. Click **Export → BibTeX**.
-4. Save the resulting `.bib` file. **Put it in its own folder** — the skill
-   will create `papers_pdf/` next to it for downloaded PDFs and caches.
+   (e.g. by author, year range, keyword).
+2. Optionally tick the checkboxes of the specific papers you want; otherwise
+   the export will include the full result list.
+3. Click **Export** (top-right of the result list) → **in BibTeX**.
+
+   ![Export BibTeX from ADS](docs/ads-export-bibtex.png)
+
+4. ADS opens the BibTeX in a new tab. Save it as a `.bib` file
+   (e.g. `ads_export.bib`). **Put it in its own folder** — the skill will
+   create `papers_pdf/` next to it for downloaded PDFs and caches.
 
 Example layout you should end up with:
 
