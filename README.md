@@ -193,7 +193,7 @@ update automatically.
 
 ## License
 
-MIT. See `LICENSE` (if present) or use as you wish with attribution.
+MIT — see [`LICENSE`](LICENSE).
 
 ## Author
 
